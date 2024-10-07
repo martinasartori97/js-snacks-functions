@@ -8,12 +8,12 @@ function  elenconomi (nomi){
     return nomi.map(nome => nome [0]);
 }
 
-const estraiIniziali = elenconomi(names);
-console.log(estraiIniziali);
 
 
 
 // Invoca la funzione qui e stampa il risultato in console
+const estraiIniziali = elenconomi(names);
+console.log(estraiIniziali);
 
 
 
