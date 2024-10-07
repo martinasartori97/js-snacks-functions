@@ -4,9 +4,21 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+function filtraperlettera = (nomi, lettera) => {
+    return nomi.filter(nome => nome.includes(lettera));
+};
+
+const lettera = 'A';
+
+const filteredNames = filtraperlettera(names, lettera);
+console.log(filteredNames); // Output: ["Anna", "Adele", "Laura", "Alessandra"]
+
 
 
 // Invoca la funzione qui e stampa il risultato in console
+result = filtraperlettera (names,"a");
+console.log(result);
+
 
 
 
