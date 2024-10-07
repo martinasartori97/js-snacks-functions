@@ -4,8 +4,10 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
-
-
+function contaVocali(stringa) {
+    const vocali = 'aeiou';
+    let conteggio = 0;
+}
 // Invoca la funzione qui e stampa il risultato in console
 
 
