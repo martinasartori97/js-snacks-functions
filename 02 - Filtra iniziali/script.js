@@ -8,14 +8,14 @@ function filtraperletteraA  (names, lettera){
     return names.filter(nome => nome.startsWith(lettera))
 };
 
-console.log(filtraperletteraA);
+
 
 
 
 
 
 // Invoca la funzione qui e stampa il risultato in console
-const filtraperlettera = filtraperletteraA(nomi, lettera);
+const filtraperlettera = filtraperletteraA(names, lettera);
 console.log(filtraperlettera);
 
 
