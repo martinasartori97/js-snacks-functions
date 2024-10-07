@@ -15,7 +15,7 @@ console.log(filtraperletteraA);
 
 
 // Invoca la funzione qui e stampa il risultato in console
-const filtraperlettera = filtraParoleInizianoCon(nomi, lettera);
+const filtraperlettera = filtraperletteraA(nomi, lettera);
 console.log(filtraperlettera);
 
 
