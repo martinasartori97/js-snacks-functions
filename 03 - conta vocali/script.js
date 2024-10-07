@@ -9,6 +9,8 @@ function contaVocali(stringa) {
     let conteggio = 0;
 }
 // Invoca la funzione qui e stampa il risultato in console
+const numeroVocali = contaVocali(word);
+console.log(numeroVocali);
 
 
 
