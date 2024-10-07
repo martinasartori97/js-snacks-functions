@@ -14,9 +14,6 @@ console.log(estraiIniziali);
 
 
 // Invoca la funzione qui e stampa il risultato in console
-const estraiIniziali = elenconomi (names);
-const estraiIniziali = elenconomi.map
-console.log(estraiIniziali);
 
 
 
