@@ -5,7 +5,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 function  elenconomi = (nomi){
-    return nomi.map(0)
+    return nomi.map(nome => nome [0]);
 }
 
 const estraiIniziali = elenconomi(names);
