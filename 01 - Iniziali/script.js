@@ -4,7 +4,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-function  elenconomi = (nomi){
+function  elenconomi (nomi){
     return nomi.map(nome => nome [0]);
 }
 
