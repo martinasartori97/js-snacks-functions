@@ -1,23 +1,22 @@
 /* Scrivi una funzione che accetti un'array di stringhe e una lettera e restituisca un array contenente solo le parole che iniziano con quella lettera */
 
 const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
-
+const lettera ="a";
 
 // Dichiara la funzione qui.
-function filtraperlettera = (nomi, lettera) => {
-    return nomi.filter(nome => nome.includes(lettera));
+function filtraperlettera  (nomi, lettera){
+    return Array.filter(nome => nome.startsWith(lettera))
 };
 
-const lettera = 'A';
+console.log(names);
 
-const filteredNames = filtraperlettera(names, lettera);
-console.log(filteredNames); // Output: ["Anna", "Adele", "Laura", "Alessandra"]
+
 
 
 
 // Invoca la funzione qui e stampa il risultato in console
-result = filtraperlettera (names,"a");
-console.log(result);
+const filtraperlettera = filtraParoleInizianoCon(nomi, lettera);
+console.log(filtraperlettera);
 
 
 
