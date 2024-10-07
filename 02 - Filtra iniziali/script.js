@@ -4,11 +4,11 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 const lettera ="a";
 
 // Dichiara la funzione qui.
-function filtraperlettera  (nomi, lettera){
-    return Array.filter(nome => nome.startsWith(lettera))
+function filtraperletteraA  (nomi, lettera){
+    return nomi.filter(nome => nome.startsWith(lettera))
 };
 
-console.log(names);
+console.log(filtraperletteraA);
 
 
 
