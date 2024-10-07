@@ -10,8 +10,8 @@ console.log(nomi);
 
 
 // Invoca la funzione qui e stampa il risultato in console
-const risultato = formattanomi (names);
-console.log(risultato);
+const estraiIniziali = (nomi);
+console.log(iniziali);
 
 
 
