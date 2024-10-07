@@ -5,7 +5,7 @@ const lettera ="A";
 
 // Dichiara la funzione qui.
 function filtraperletteraA  (names, lettera){
-    return nomi.filter(nome => nome.startsWith(lettera))
+    return names.filter(nome => nome.startsWith(lettera))
 };
 
 console.log(filtraperletteraA);
