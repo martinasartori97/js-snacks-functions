@@ -4,9 +4,15 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+function  elenconomi = (nomi) => nomi.join(',');
+console.log(nomi);
+
 
 
 // Invoca la funzione qui e stampa il risultato in console
+const risultato = formattanomi (names);
+console.log(risultato);
+
 
 
 
