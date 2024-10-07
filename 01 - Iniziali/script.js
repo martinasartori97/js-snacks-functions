@@ -4,14 +4,19 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-function  elenconomi = (nomi) => nomi.join(',');
-console.log(nomi);
+function  elenconomi = (nomi){
+    return nomi.map(0)
+}
+
+const estraiIniziali = elenconomi(names);
+console.log(estraiIniziali);
 
 
 
 // Invoca la funzione qui e stampa il risultato in console
-const estraiIniziali = (nomi);
-console.log(iniziali);
+const estraiIniziali = elenconomi (names);
+const estraiIniziali = elenconomi.map
+console.log(estraiIniziali);
 
 
 
